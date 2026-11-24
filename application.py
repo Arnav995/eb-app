@@ -9,7 +9,7 @@ def home():
     app_env = os.environ.get("APP_ENV", "not set")
     color = os.environ.get("APP_COLOR", "blue")
     debug = os.environ.get("DEBUG_MODE", "not set")
-    version = "1.0"
+    version = "2.0"
     return (
         f"<body style='font-family:Arial;text-align:center;padding-top:60px;background:{color};color:white'>"
         f"<h1>Elastic Beanstalk CI/CD - Version {version}</h1>"
